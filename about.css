@@ -2813,9 +2813,10 @@ figcaption {
 }
 
 .body-3 {
-  height: 0%;
+  height: 100%;
   object-fit: fill;
   padding-bottom: 0;
+  display: block;
 }
 
 .collection-list-wrapper {
