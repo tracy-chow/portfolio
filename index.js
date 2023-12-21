@@ -1209,22 +1209,22 @@
           return $brand[0];
         }
         function ensureBrand() {
-          var found = $body.children(namespace);
-          var match = found.length && found.get(0) === brandElement;
-          var inEditor = Webflow.env("editor");
-          if (match) {
-            if (inEditor) {
-              found.remove();
-            }
-            return;
-          }
-          if (found.length) {
-            found.remove();
-          }
-          if (!inEditor) {
-            $body.append(brandElement);
-          }
-        }
+        //   var found = $body.children(namespace);
+        //   var match = found.length && found.get(0) === brandElement;
+        //   var inEditor = Webflow.env("editor");
+        //   if (match) {
+        //     if (inEditor) {
+        //       found.remove();
+        //     }
+        //     return;
+        //   }
+        //   if (found.length) {
+        //     found.remove();
+        //   }
+        //   if (!inEditor) {
+        //     $body.append(brandElement);
+        //   }
+        // }
         return api;
       });
     }
