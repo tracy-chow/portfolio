@@ -1208,7 +1208,7 @@
         //   // $brand.append($logoArt, $logoText);
         //   return $brand[0];
         // }
-        function ensureBrand() {
+        // function ensureBrand() {
         //   var found = $body.children(namespace);
         //   var match = found.length && found.get(0) === brandElement;
         //   var inEditor = Webflow.env("editor");
@@ -1225,7 +1225,7 @@
         //     $body.append(brandElement);
         //   }
         // }
-        return api;
+        // return api;
       });
     }
   });
